@@ -7,7 +7,7 @@ class PostList extends React.Component {
 	componentDidMount() {
 		this.props.fetchPostsAndUsers();
 	}
-
+// 
 	renderList() {
 		return this.props.posts.map((post) => {
 			return (
